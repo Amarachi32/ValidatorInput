@@ -34,3 +34,4 @@ namespace TypeSafeInput
         }
     }
 }
+//C:\amara\visual\test\exception\TypeSafe UserInput\TypeSafe UserInput
