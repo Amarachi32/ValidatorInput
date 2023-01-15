@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TypeSafe_UserInput
+namespace TypeSafeInput
 {
     internal class Utility
     {

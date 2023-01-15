@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>TypeSafe_UserInput</RootNamespace>
+    <RootNamespace>TypeSafeInput</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -12,7 +12,13 @@
     <Authors>Amarachi Izuegbunam</Authors>
     <Company>Bezao</Company>
     <Product>TypeValidator</Product>
-    <Description>TypeValidator validates users input and make sure it is type safe</Description>
+    <Description>TypeValidator validates users input and ensures it did not crash the program.</Description>
   </PropertyGroup>
+	<ItemGroup>
+		<Content Include ="ReadMe.txt">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</Content>
+	</ItemGroup>
 
 </Project>
